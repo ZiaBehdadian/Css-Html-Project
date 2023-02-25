@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1100px;
+    width: 1000px;
     margin: auto;
     padding: 21px 0px 7px;
     background-color: rgb(255, 255, 255, .72);
@@ -22,6 +22,7 @@ body {
 .logo {
     margin: 11px 28px;
     border-radius: 50px;
+    /* width: 50px; */
 }
 
 .header-ul {
@@ -43,4 +44,20 @@ body {
 .header-ul > li:last-child a {
     color: rgb(36, 36, 245);
     background-color: rgb(145, 145, 243);
+    border-radius: 30px;
+    padding:9px 20px ;
+    margin-right: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     
+}
+
+.header-ul > li:last-child a:hover {
+    background-color: rgb(129, 129, 248);
+}
+.more-menu {
+    display: flex;
+}
+.more-menu img {
+    width: 8px;
+    margin-right: 8px;
 }
