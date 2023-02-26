@@ -66,6 +66,29 @@ header {
     width: 27px;
     display: none;
 }
+
+.hamburger-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 100;
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.cross-icon {
+    width: 100%;
+    text-align: left;
+    padding: 25px 0;
+}
+.cross-icon img {
+    width: 20px;
+    margin-left: 30px;
+}
+.hamburger-menu-items {
+    list-style: none;
+}
 @media (max-width: 1200px) {
     header {
         width: 940px;
